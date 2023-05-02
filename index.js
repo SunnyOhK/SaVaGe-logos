@@ -2,27 +2,38 @@
 const inquirer = require('inquirer');
 // const validateColor = require('validate-color');
 
-const fs = require('fs');
+const {writeFile} = require('fs/promises');
 // const { writeFile } = fs.promises;
 
 // Import questions from questions.js
 const questions = require('./lib/questions.js');
-
 // Import shape classes from shapes.js and define each shape
-const createShape = require('./lib/shapes.js');
-
-
-// DEFINE 'PROMPTUSER' AS ARRAY OF QUESTIONS THAT WILL GENERATE SVG LOGO
-const promptUser = () => {
-  return inquirer.prompt(questions);
-};
+const {Circle,Square,Triangle,Diamond} = require("./lib/shapes.js")
 
 // WRITEFILE HAS BEEN IMPORTED FROM INQUIRER PROMISES
 const init = () => {
-  promptUser()
-    // Use writeFile method imported from fs.promises to use promises instead of a callback function
-    
-    .then((answers) => fs.writeFile('./examples/logo.svg', createShape(answers)))
+  inquirer.prompt(questions)
+    .then((answer) => {
+      var userShape;
+      switch (answer.shape) {
+        case 'circle':
+          userShape = new Circle(answer.shapeColor, answer.text, answer.textColor);
+          break;
+        case 'square':
+          userShape = new Square(answer.shapeColor, answer.text, answer.textColor);
+          break;
+        case 'triangle':
+          userShape = new Triangle(answer.shapeColor, answer.text, answer.textColor);
+          break;
+        case 'diamond':
+          userShape = new Diamond(answer.shapeColor, answer.text, answer.textColor);
+          break;
+
+        default:
+          break;
+      }
+      writeFile('./examples/logo.svg', userShape.renderSVG())
+    })
     .then(() => console.log('Generated logo.svg!'))
     .catch((err) => console.error(err));
 };
