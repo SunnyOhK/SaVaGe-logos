@@ -45,7 +45,7 @@ Text input will accept uppercase letters, lowercase letters, numbers, and keyboa
 
 Colors can be input as a keyword or hexadecimal code. For example:
 
-&nbsp;&nbsp;▸&nbsp;&nbsp;&nbsp; #E4B6A8 = <img src="images/e4b6a8-color-block.png" width="25" height="13"/> &nbsp;&nbsp;&nbsp;&&nbsp;&nbsp;&nbsp;blueviolet = <img src="images/blueviolet-color-block.png" width="25" height="13"/>
+&nbsp;&nbsp;▸&nbsp;&nbsp;&nbsp; #E4B6A8 = <img src="images/e4b6a8-color-block.png" width="25" height="16"/> &nbsp;&nbsp;&nbsp;&&nbsp;&nbsp;&nbsp;blueviolet = <img src="images/blueviolet-color-block.png" width="25" height="16"/>
 
 
 - Original project submission demo video can be viewed here: 
