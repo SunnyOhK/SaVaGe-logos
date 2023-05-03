@@ -47,7 +47,9 @@ Colors can be input as a keyword or hexadecimal code. For example:
 
 &nbsp;&nbsp;▸&nbsp;&nbsp;&nbsp; #E4B6A8 = <img src="images/e4b6a8-color-block.png" width="25" height="16"/> &nbsp;&nbsp;&nbsp;&&nbsp;&nbsp;&nbsp;blueviolet = <img src="images/blueviolet-color-block.png" width="25" height="16"/>
 
-[Video Demo](images/SaVaGe-Logo.mp4)
+
+https://user-images.githubusercontent.com/127900916/235832687-12e76920-c99e-4321-85f2-aaa66135a230.mp4
+
 
 Screencastify: https://drive.google.com/file/d/1SmOUV-PUxhdVYtNDNEMev0Y3s9i7bjuP/view
 
