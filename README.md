@@ -5,7 +5,7 @@
 ## Description
 This project is a command-line-generator for custom SVG logos. A user is provided 4 shape options (circle, square, triangle, diamond), an extensive color pallette, and the ability to input up to 3 text characters. After completing a short questionnaire, SaVaGe Logos renders a custom 300px by 200px SVG graphic. 
 
-<i>NOTE</i>: Examples below are displayed at 50% actual logo size.
+<i>NOTE</i>: Examples below are displayed at a reduced size.
 
 <img src="examples/logoCir.png" width="150" height="100"/><img src="examples/logoSqu.png" width="150" height="100"/><img src="examples/logoTri.png" width="150" height="100"/><img src="examples/logoDia.png" width="150" height="100"/>
 <br><br>
