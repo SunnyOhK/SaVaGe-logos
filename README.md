@@ -18,7 +18,7 @@ This project is a command-line-generator for custom SVG logos. A user is provide
 - [Credits](#credits)
 - [License](#license)
 - [Contact](#contact)
-<br><br>
+
 
 ## Installation
 
@@ -32,7 +32,7 @@ This application uses npm code packages that must be installed prior to use:
 - [validate-color](https://github.com/dreamyguy/validate-color/blob/master/README.md) - version 2.2.4
 
       npm i validate-color
-<br>
+
 
 ## Usage 
 In order to begin creating your new logo, open the terminal from the index.js file and type `"node index.js"`. You will be prompted to answer 4 quick questions:
@@ -53,7 +53,7 @@ https://user-images.githubusercontent.com/127900916/235832687-12e76920-c99e-4321
 
 Screencastify: https://drive.google.com/file/d/1SmOUV-PUxhdVYtNDNEMev0Y3s9i7bjuP/view
 
-<br><br>
+<br>
 
 ## Tests
 
@@ -79,7 +79,7 @@ Tests have been performed and passed using Jest (<i>A Delightful JavaScript Test
 This project is licensed under: [MIT](https://choosealicense.com/licenses/mit/)
 <br><br>
 
-## Questions
+## Contact
 
 For questions, please contact me:
 
