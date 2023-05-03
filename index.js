@@ -8,7 +8,7 @@ const {writeFile} = require('fs/promises');
 // Import questions from questions.js
 const questions = require('./lib/questions.js');
 // Import shape classes from shapes.js and define each shape
-const {Circle,Square,Triangle,Diamond} = require("./lib/shapes.js")
+const { Circle, Square, Triangle, Diamond } = require("./lib/shapes.js")
 
 // WRITEFILE HAS BEEN IMPORTED FROM INQUIRER PROMISES
 const init = () => {
